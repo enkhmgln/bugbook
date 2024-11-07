@@ -2,4 +2,4 @@
 
 A full-stack social media app with infinite loading, optimistic updates, authentication, DMs, notifications, file uploads, and much more.
 
-### Аялагчид аялалийн сэтгэгдэлээ бичиж , review хийдэг болгож өөрчлөх
+### TODO: Аялагчид аялалийн сэтгэгдэлээ бичиж , review хийдэг system болгож өөрчлөх
