@@ -61,7 +61,7 @@ export default function Notifications() {
   if (status === "success" && !notifications.length && !hasNextPage) {
     return (
       <p className="text-center text-muted-foreground">
-        You don&apos;t have any notifications yet.
+        Танд хараахан мэдэгдэл байхгүй байна.
       </p>
     );
   }

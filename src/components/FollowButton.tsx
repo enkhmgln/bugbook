@@ -58,7 +58,7 @@ export default function FollowButton({
       variant={data.isFollowedByUser ? "secondary" : "default"}
       onClick={() => mutate()}
     >
-      {data.isFollowedByUser ? "Unfollow" : "Follow"}
+      {data.isFollowedByUser ? "Дагахаа болих" : "Дагах"}
     </Button>
   );
 }
