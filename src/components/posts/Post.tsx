@@ -155,8 +155,7 @@ function CommentButton({ post, onClick }: CommentButtonProps) {
     <button onClick={onClick} className="flex items-center gap-2">
       <MessageSquare className="size-5" />
       <span className="text-sm font-medium tabular-nums">
-        {post._count.comments}{" "}
-        <span className="hidden sm:inline">comments</span>
+        {post._count.comments} <span className="sr-only">сэтгэгдэл</span>
       </span>
     </button>
   );
