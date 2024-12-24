@@ -25,7 +25,7 @@ export async function login(
 
     if (!existingUser || !existingUser.passwordHash) {
       return {
-        error: "Incorrect username or password",
+        error: "Нууц үг эсвэл хэрэглэгчийн нэр буруу байна.",
       };
     }
 
@@ -38,7 +38,7 @@ export async function login(
 
     if (!validPassword) {
       return {
-        error: "Incorrect username or password",
+        error: "Нууц үг эсвэл хэрэглэгчийн нэр буруу байна.",
       };
     }
 
