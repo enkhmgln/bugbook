@@ -38,7 +38,7 @@ export default function FollowingFeed() {
   if (status === "success" && !posts.length && !hasNextPage) {
     return (
       <p className="text-center text-muted-foreground">
-        No posts found. Start following people to see their posts here.
+       Нийтлэл олдсонгүй. Тэдний нийтлэлийг эндээс харахын тулд хүмүүсийг дагаж эхэл.
       </p>
     );
   }

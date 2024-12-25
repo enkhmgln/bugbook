@@ -8,5 +8,14 @@ const uploadFile = async (file: any, folder: "audio" | "images" | "albums") => {
 
   return `/uploads/${folder}/${fileName}`;
 };
+const deleteFile = async (filePath: string) => {
+  const fullPath = path.join(process.cwd(), filePath);
+  await new Promise((resolve, reject) => {
+    require("fs").unlink(fullPath, (err: any) => {
+      if (err) reject(err);
+      resolve(true);
+    });
+  });
+};
 
 export { uploadFile };

@@ -41,16 +41,16 @@ export default function Comments({ post }: CommentsProps) {
           disabled={isFetching}
           onClick={() => fetchNextPage()}
         >
-          Load previous comments
+         Өмнөх сэтгэгдлийг ачаалах
         </Button>
       )}
       {status === "pending" && <Loader2 className="mx-auto animate-spin" />}
       {status === "success" && !comments.length && (
-        <p className="text-center text-muted-foreground">No comments yet.</p>
+        <p className="text-center text-muted-foreground">Одоогоор сэтгэгдэл байхгүй.</p>
       )}
       {status === "error" && (
         <p className="text-center text-destructive">
-          An error occurred while loading comments.
+         Сэтгэгдэл ачаалах явцад алдаа гарлаа.
         </p>
       )}
       <div className="divide-y">
