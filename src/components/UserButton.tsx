@@ -45,7 +45,7 @@ export default function UserButton({ className }: UserButtonProps) {
         <Link href={`/users/${user.username}`}>
           <DropdownMenuItem>
             <UserIcon className="mr-2 size-4" />
-            Profile
+            Профайл
           </DropdownMenuItem>
         </Link>
         <DropdownMenuSub>
@@ -81,7 +81,7 @@ export default function UserButton({ className }: UserButtonProps) {
           }}
         >
           <LogOutIcon className="mr-2 size-4" />
-          Logout
+          Гарах 
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
